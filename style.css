@@ -1,0 +1,152 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Overpass', sans-serif;	
+}
+
+body {
+	background-color: hsl(216, 12%, 8%);
+}
+
+#container {
+	border-radius: 10px;
+	width: 450px;
+	height: 450px;
+	margin: 200px auto;
+	background: radial-gradient(ellipse at top, hsl(216, 3%, 38%), hsl(213, 19%, 18%));
+}
+
+img {
+	width: 20px;
+	height: 20px;
+}
+
+.border-img {
+	background-color: hsl(213, 19%, 18%);
+	border-radius: 50px;
+	border: none;
+	width: 50px;
+	height: 50px;
+	margin: 10px;
+	pointer-events: none;
+}
+
+.title {
+	text-align: left;
+	color: hsl(0, 0%, 100%);
+	font-size: 20px;
+	font-weight: 700;
+	margin: 10px;
+}
+
+.description {
+	text-align: left;
+	color: hsl(0, 0%, 100%);
+	font-size: 15px;
+	margin: 10px;
+	margin-top: 20px;
+}
+
+
+#submit-rating {	
+	background-color: hsl(25, 97%, 53%);
+	color: hsl(0, 0%, 100%);
+	width: 400px;
+	height: 50px;
+	margin-top: 20px;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+}
+
+#submit-rating:hover {
+	background-color:hsl(0, 0%, 100%);
+	color: hsl(25, 97%, 53%);
+}
+
+#rating-card {
+	margin-top: 30px;
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+button {
+	background-color: hsl(213, 19%, 18%);
+	border-radius: 50px;
+	border: none;
+	width: 60px;
+	height: 60px;
+	color: hsl(216, 12%, 54%);
+	font-weight: 700;
+	text-align: center;
+}
+button:hover {
+	background-color:hsl(216, 12%, 54%);
+	color: hsl(0, 0%, 100%);
+}
+button:active {
+	position:relative;
+	top:1px;    
+}
+button:focus {
+	background-color:hsl(25, 97%, 53%);
+	color: hsl(0, 0%, 100%);
+}
+
+#container-thanks {
+	border-radius: 10px;
+	width: 450px;
+	height: 450px;
+	margin: 200px auto;
+	background: radial-gradient(ellipse at top, hsl(216, 3%, 38%), hsl(213, 19%, 18%));
+}
+
+.foto-thanks img {
+	margin: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 250px;
+	height: 190px;
+	padding: 30px;
+}
+
+.title-thanks {
+	text-align: center;
+	color: hsl(0, 0%, 100%);
+	font-size: 20px;
+	font-weight: 700;
+	margin: 10px;
+	padding: 10px;
+}
+
+.description-thanks {
+	text-align: center;
+	color: hsl(0, 0%, 100%);
+	font-size: 15px;
+	font-weight: 400;
+	margin: 10px;
+	margin-top: 20px;
+}
+
+#thank-you {
+	margin: auto;
+	background-color: hsl(213, 19%, 18%);
+	color: hsl(25, 97%, 53%);
+	text-align: center;
+	width: 200px;
+	height: 20px;
+	border-radius: 30px;
+}
+.attribution {
+    font-size: 11px;
+    text-align: center; 
+	color: hsl(0, 0%, 100%);
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
