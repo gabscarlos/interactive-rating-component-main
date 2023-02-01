@@ -12,7 +12,13 @@ ratingButtons.forEach(function(button) {
   });
 });
 
+
 submitButton.addEventListener("click", function() {
+  if (!selectedRating) {
+    alert("Please select a rating before submitting");
+    return;
+  }
+
   // Aqui envia o valor da classificação selecionada ao back-end
   // ...
 

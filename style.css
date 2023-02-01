@@ -11,10 +11,10 @@ body {
 
 #container {
 	border-radius: 10px;
-	width: 450px;
+	width: 400px;
 	height: 450px;
 	margin: 200px auto;
-	background: radial-gradient(ellipse at top, hsl(216, 3%, 38%), hsl(213, 19%, 18%));
+	background: radial-gradient(ellipse at top, hsl(219, 12%, 34%), hsl(213, 19%, 18%));
 }
 
 img {
@@ -52,12 +52,15 @@ img {
 #submit-rating {	
 	background-color: hsl(25, 97%, 53%);
 	color: hsl(0, 0%, 100%);
-	width: 400px;
+	width: 350px;
 	height: 50px;
 	margin-top: 20px;
+	margin-left: 25px;
 	text-align: center;
+	font-size: 17px;
+	font-weight: 700;
 	text-transform: uppercase;
-	letter-spacing: 5px;
+	letter-spacing: 3px;
 }
 
 #submit-rating:hover {
@@ -98,7 +101,7 @@ button:focus {
 
 #container-thanks {
 	border-radius: 10px;
-	width: 450px;
+	width: 400px;
 	height: 450px;
 	margin: 200px auto;
 	background: radial-gradient(ellipse at top, hsl(216, 3%, 38%), hsl(213, 19%, 18%));
